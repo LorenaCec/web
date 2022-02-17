@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(252, 243, 230);
+}
+
+.header {
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+}
+nav{
+    float: right;
+    padding: 16px 16px;
+    font-family: 'Garamond';
+}
+nav a {
+    color: rgb(92, 32, 32);
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color:#c99a73; 
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.frontpage {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:auto;
+    display:block;
+}
+.maintext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1{
+    font-family: 'Lucida Sans';
+    margin-top:0;
+    margin-bottom:0;
+    padding-top: 10px;
+}
+h2{
+    font-size: 3em;
+}
+p{
+    font-size: 20px;
+}
+
+.firststory {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1.5fr 3fr;
+    align-items: center;
+}
+img{
+    min-width: 50%;
+    max-width: 80%;
+    padding: 30px;
+}
+.aboutus{
+    padding: 30px;
+}
+.aboutus p{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(148, 83, 22);
+    font-size: 25px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 4px;
+    background-color: #e9ba94;
+    color: white;
+  }
